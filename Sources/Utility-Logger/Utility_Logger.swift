@@ -9,7 +9,6 @@ enum Utility_Logger {
         fileprivate var prefix: String {
             switch self {
 case .info: return "INFO 💡" case .warning: return "WARN ⚠️" case .error: return "ALERT ❌"
-            
             }
             
         }
